@@ -1,3 +1,5 @@
+#include <assert.h>
+#include <stdio.h>
 #ifndef PWD_CHECKER_H
 #define PWD_CHECKER_H
 
