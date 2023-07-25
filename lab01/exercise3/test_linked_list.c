@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "linked_list.h"
-//#include "linked_list.c"
+#include "linked_list.c"
 
 int main(int argc, char **argv) {
     printf("Running tests...\n\n");

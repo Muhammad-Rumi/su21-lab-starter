@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "ex1.h"
+#include "ex1.c"
 
 int main(int argc, char **argv) {
     printf("Running tests...\n\n");
