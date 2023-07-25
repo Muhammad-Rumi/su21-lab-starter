@@ -1,6 +1,7 @@
-#include <stdio.h>
+// Copyright 2023 Rumi
+#include <stdio.h>  // NOLINT
 #include <stdlib.h>
-#include "linked_list.h"
+#include "linked_list.h"  // NOLINT
 
 /* returns a new node whose data is set to DATA and next is set to NULL */
 Node *create_node(int data) {

@@ -1,3 +1,4 @@
+// Copyright [2023] <Rumi>
 #include <assert.h>
 #include <stdio.h>
 #include <stdlib.h>
