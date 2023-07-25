@@ -1,5 +1,5 @@
-#include <string.h>
-#include "pwd_checker.h"
+#include <string.h>  // NOLINT
+#include "pwd_checker.h"  // NOLINT
 
 /*
 Password checker

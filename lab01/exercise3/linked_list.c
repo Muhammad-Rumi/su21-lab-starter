@@ -1,7 +1,7 @@
-#include <stdio.h>
+// Copyright 2023 Rumi
+#include <stdio.h>  // NOLINT
 #include <stdlib.h>
-#include "linked_list.h"
-
+#include "linked_list.h"  // NOLINT
 /* returns a new node whose data is set to DATA and next is set to NULL */
 Node *create_node(int data) {
     /* Don't worry about malloc yet! It is not in the scope of this lab */
@@ -73,17 +73,15 @@ void reverse_list(struct Node **head) {
 /* Creates a new node with a data field set to DATA and adds the node
    to the back of the list pointed to by HEAD */
 void add_to_back(Node **head, int data) {
-   Node *new_node = create_node(data);
+    Node *new_node = create_node(data);
     Node *prev;
      if (*head == NULL) {
         *head = new_node;
         return;
-        
     }
-    
-    
+
     for (Node *curr = *head; curr != NULL; curr = curr->next) {
         prev = curr;
     }
-   prev->next = new_node;
+    prev->next = new_node;
 }
