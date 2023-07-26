@@ -52,4 +52,4 @@ int vector_get(vector_t *v, size_t loc);
 /* Set a value in the vector */
 void vector_set(vector_t *v, size_t loc, int value);
 
-#endif
+#endif  // CS61C_VECTOR_H  // NOLINT

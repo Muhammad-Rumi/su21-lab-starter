@@ -52,7 +52,7 @@ vector_t also_bad_vector_new() {
 
 /* Create a new vector with a size (length) of 1 and set its single component to zero... the
    right way */
-/* TODO: uncomment the code that is preceded by // */
+// TODO(Runi): uncomment the code that is preceded by
 vector_t *vector_new() {
     /* Declare what this function will return */
     // vector_t *retval;
@@ -86,9 +86,8 @@ vector_t *vector_new() {
 
 /* Return the value at the specified location/component "loc" of the vector */
 int vector_get(vector_t *v, size_t loc) {
-
     /* If we are passed a NULL pointer for our vector, complain about it and exit. */
-    if(v == NULL) {
+    if (v == NULL) {
         fprintf(stderr, "vector_get: passed a NULL vector.\n");
         abort();
     }
