@@ -33,7 +33,7 @@
 #include <sys/types.h>
 
 typedef struct vector_t vector_t;
-
+#include "vector.c"  // NOLINT
 /*
  *  Next, we provide the prototypes for the functions defined in vector.c.  This
  *  is a way of telling the .c files that #include this header what they will
