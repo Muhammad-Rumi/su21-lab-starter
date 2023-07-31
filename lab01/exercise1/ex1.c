@@ -9,7 +9,7 @@ There are two different ways to iterate through a string.
 int num_occurrences(char *str, char letter) {
   /* TODO: implement num_occurances */
   int count = 0;
-  for (int i = 0; i < (int)strlen(str); i++) {
+  for (int i = 0; i < (int)strlen(str); i++) {  // NOLINT
     if (letter == *(str + i)) {
       count += 1;
     }
